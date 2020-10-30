@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "milkshake",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Milkshake Mod",
+  "description": "A bunch of random ideas blended together.",
   "authors": [
-    "Me!"
+    "Citrus Void"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://cam-jm.github.io/milkshake/",
+    "sources": "https://github.com/cam-jm/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/milkshake/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.camjm.milkshake.MilkshakeMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "milkshake.mixins.json"
   ],
 
   "depends": {
